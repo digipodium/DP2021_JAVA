@@ -1,3 +1,6 @@
+/**
+ * this is a class to create a dog object related to reallife dogs
+ * */
 public class Dog implements EdibleFood{
     private String breed;
     private String color;
@@ -14,7 +17,9 @@ public class Dog implements EdibleFood{
     public void bark(){
         System.out.println("Bow wow");
     }
-
+    /**
+     * this is an overloaded function for the dog
+     * */
     public void bark(int times){
         for (int i = 0; i < times; i++) {
             System.out.println("bow wow!");
